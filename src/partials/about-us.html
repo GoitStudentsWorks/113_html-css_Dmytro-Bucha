@@ -16,20 +16,22 @@
     </div>
     <a href="" class="about-button">View catalog</a>
   </div>
-  <picture>
-    <source
-      srcset="/img/about-img.webp 1x, /img/about-img-2x.webp 2x"
-      media="(min-width: 1280px)"
-    />
-    <source
-      srcset="/img/about-img-tab.webp 1x, /img/about-img-tab-2x.webp 2x"
-      media="(min-width: 768px)"
-    />
-    <img
-      class="about-img"
-      src="/img/about-img-mob.webp 1x,
-    /img/about-img-mob-2x.webp 2x"
-      alt="clock"
-    />
-  </picture>
+  <div class="about-img-wrapper">
+    <picture>
+      <source
+        srcset="/img/about-img.webp 1x, /img/about-img-2x.webp 2x"
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="/img/about-img-tab.webp 1x, /img/about-img-tab-2x.webp 2x"
+        media="(min-width: 768px)"
+      />
+      <img
+        class="about-img"
+        src="/img/about-img-mob.webp"
+        srcset="/img/about-img-mob.webp 1x, /img/about-img-mob-2x.webp 2x"
+        alt="clock"
+      />
+    </picture>
+  </div>
 </section>
