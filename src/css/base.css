@@ -4,7 +4,13 @@ body {
   font-family: "Gilroy", sans-serif;
   box-sizing: border-box;
   background-color: #fff;
+  font-family: inherit;
+	color: currentColor;
   
+}
+
+input {
+	font-family: inherit;
 }
 
 .container {
