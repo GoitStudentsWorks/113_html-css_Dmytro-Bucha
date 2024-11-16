@@ -2,25 +2,16 @@
 
 body {
   font-family: "Gilroy", sans-serif;
-  display: flex;
-  flex-direction: column;
-  min-width: 100vw;
-  min-height: 100vh;
-  margin: 0;
-}
-
-main {
-  flex-grow: 1;
-}
-main:has(.back-link) {
-  text-align: center;
+  box-sizing: border-box;
+  background-color: #fff;
+  
 }
 
 .container {
   min-width: 320px;
   max-width: 375px;
   margin: 0 auto;
-  padding: 0 16px;
+  padding: 0 20px;
 }
 
 /* Styles for Tablet devices */
