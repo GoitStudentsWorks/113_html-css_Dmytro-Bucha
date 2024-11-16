@@ -159,14 +159,8 @@ input {
         padding: 80px 60px;
     }
 
-    .about-img-wrapper {
-        flex: 1;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
     .about-img {
+        flex: 1;
         max-width: 100%;
         height: auto;
         border-radius: 30px;
