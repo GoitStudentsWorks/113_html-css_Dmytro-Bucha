@@ -1,5 +1,6 @@
 .hero {
     padding-top: 60px;
+    padding-bottom: 30px;
     }
    
 .hero-container {
@@ -38,81 +39,63 @@
 }
 .hero-foto-people {
     display: flex;
-   
+    align-items: flex-end;
     justify-content: space-between;
-    align-items: flex-end;    
 }
-.hero-foto-list {
-    display: flex;
-    
-    }
-
-.img-foto-people {
-    border-radius: 100%;
-    stroke-width: 2px;
-    stroke: #fbfbfb;
+.foto-people {
+    width: 108px;
 }
-.people2 {
-    transform: translateX(-12px)
-}
-.people3 {
-    transform: translateX(-24px);
-}
-
-.hero-img {    
-    border-radius: 30px;
-    min-width: 320px;
-    max-width: 768px;
-}
-
-
 
 @media only screen and (min-width: 768px) {
     .hero {
         padding-top: 80px;
+        padding-bottom: 40px;
         }
-        
     .hero-container {
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 28px;
+        row-gap: 40px;
+        justify-content: space-between;
         
-    }
-    
+        }
     .hero-title {
-        width: 557px;
+        width: 557px;        
         font-size: 70px;
         line-height: 0.86;
-        letter-spacing: -0.02em;    
-       
-    }
-    .hero-text {   
-        width: 480px;
+        }
+    .hero-text {
+        width: 480px;        
         font-size: 16px;
         line-height: 1.25;
-        letter-spacing: -0.02em;        
-        
-    }
-    .hero-scroll {       
+        }
+    .hero-scroll {
         font-size: 20px;
-        line-height: 1;       
-     }
-
+        line-height: 1;
+    }
     .hero-foto-people {
         flex-direction: column;
-        display: flex;        
-        justify-content: space-between;
-        align-items: flex-end;    
     }
-
-
+    .foto-people {
+        width: 136px;
+    }
+    .hero-img {
+        width: 100%;
+    }
   }
   
 
   @media only screen and (min-width: 1280px) {
-    
-
-
-
-
+    .hero {
+        padding-top: 80px;
+        padding-bottom: 50px;
+        }
+    .hero-title {
+        width: 597px;        
+        font-size: 72px;
+        line-height: 0.88;
+        } 
+     .foto-people {
+        width: 146px;
+    }
+  
   }
