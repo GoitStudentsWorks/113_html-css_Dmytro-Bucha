@@ -1,5 +1,6 @@
 .hero {
     padding-top: 60px;
+    background-color: #3350e9;
 }
 .hero-title {
     width: 335px;
@@ -28,4 +29,23 @@
     line-height: 1.28571;
     letter-spacing: -0.02em;
     text-decoration-skip-ink: none;
+    
+}
+.hero-foto-people {
+    display: flex;
+    margin-bottom: 28px;
+}
+.list-foto-people {
+    display: flex;
+    
+}
+.item-foto-people2 {
+    border-radius: 100%;
+    stroke-width: 2px;
+    stroke: #fbfbfb;
+    transform: translateX(-25%) ;
+}
+.item-foto-people3 {
+    
+    transform: translateX(-50%) ;
 }
