@@ -1,6 +1,11 @@
 .hero {
     padding-top: 60px;
-    background-color: #3350e9;
+    }
+   
+.hero-container {
+    display: flex;
+    gap: 28px;
+    flex-direction: column;
 }
 .hero-title {
     width: 335px;
@@ -20,32 +25,94 @@
     line-height: 1.29;
     letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.7);
-    margin-bottom: 28px;
+    
 }
 .hero-scroll {
     text-decoration: underline;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.28571;
+    line-height: 1.28;
     letter-spacing: -0.02em;
     text-decoration-skip-ink: none;
-    
+            
 }
 .hero-foto-people {
     display: flex;
-    margin-bottom: 28px;
+   
+    justify-content: space-between;
+    align-items: flex-end;    
 }
-.list-foto-people {
+.hero-foto-list {
     display: flex;
     
-}
-.item-foto-people2 {
+    }
+
+.img-foto-people {
     border-radius: 100%;
     stroke-width: 2px;
     stroke: #fbfbfb;
-    transform: translateX(-25%) ;
 }
-.item-foto-people3 {
+.people2 {
+    transform: translateX(-12px)
+}
+.people3 {
+    transform: translateX(-24px);
+}
+
+.hero-img {    
+    border-radius: 30px;
+    min-width: 320px;
+    max-width: 768px;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .hero {
+        padding-top: 80px;
+        }
+        
+    .hero-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 28px;
+        
+    }
     
-    transform: translateX(-50%) ;
-}
+    .hero-title {
+        width: 557px;
+        font-size: 70px;
+        line-height: 0.86;
+        letter-spacing: -0.02em;    
+       
+    }
+    .hero-text {   
+        width: 480px;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: -0.02em;        
+        
+    }
+    .hero-scroll {       
+        font-size: 20px;
+        line-height: 1;       
+     }
+
+    .hero-foto-people {
+        flex-direction: column;
+        display: flex;        
+        justify-content: space-between;
+        align-items: flex-end;    
+    }
+
+
+  }
+  
+
+  @media only screen and (min-width: 1280px) {
+    
+
+
+
+
+  }
