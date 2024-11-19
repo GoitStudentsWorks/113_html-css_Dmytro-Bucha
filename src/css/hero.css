@@ -1,7 +1,7 @@
 .hero {
     padding-top: 60px;
     padding-bottom: 30px;
-    
+    min-width: 320px;
     }
    
 .hero-container {
@@ -11,7 +11,7 @@
     margin-bottom: 28px;
 }
 .hero-title {
-    width: 335px;
+    
     font-weight: 600;
     font-size: 40px;
     line-height: 0.95;
@@ -23,7 +23,7 @@
     color: #3350e9;
 }
 .hero-text {
-    width: 335px;
+    
     font-weight: 500;
     font-size: 14px;
     line-height: 1.29;
