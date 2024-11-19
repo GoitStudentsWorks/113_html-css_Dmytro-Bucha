@@ -13,6 +13,7 @@
 }
 
 .about-title {
+    font-family: "Gilroy", sans-serif;
     font-weight: 600;
     font-size: 32px;
     line-height: 1;
@@ -29,6 +30,7 @@
 }
 
 .about-text {
+    font-family: "Gilroy", sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.28571;
@@ -42,6 +44,7 @@
     height: auto;
     padding: 15px 37px;
     background-color: #3350e9;
+    font-family: "Gilroy", sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.28;
@@ -76,7 +79,21 @@
     }
 
     .about-info {
-        margin-bottom: 60px;
+        padding-bottom: 0px;
+    }
+
+    .about-title {
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 0.91667;
+        letter-spacing: -0.02em;
+        padding-bottom: 40px;
+    }
+
+    .about-text {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.25;
     }
 
     .about-img {
@@ -112,6 +129,21 @@
         padding: 80px 60px;
         box-sizing: border-box;
         max-width: 580px;
+    }
+
+    .about-info {
+        margin-bottom: 40px;
+    }
+
+    .about-title {
+        font-size: 48px;
+        line-height: 0.91667;
+        padding-bottom: 40px;
+    }
+
+    .about-text {
+        font-size: 16px;
+        line-height: 1.25;
     }
 
     .about-img {
