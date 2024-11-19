@@ -8,6 +8,7 @@
     display: flex;
     gap: 28px;
     flex-direction: column;
+    margin-bottom: 28px;
 }
 .hero-title {
     width: 335px;
@@ -16,6 +17,7 @@
     line-height: 0.95;
     letter-spacing: -0.02em;    
     margin-bottom: 20px;
+    
 }
 .hero-title-collection {
     color: #3350e9;
@@ -27,6 +29,7 @@
     line-height: 1.29;
     letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.7);
+    
     
 }
 .hero-scroll {
@@ -46,6 +49,9 @@
 .foto-people {
     width: 108px;
 }
+.hero-watch {
+    
+}
 
 @media only screen and (min-width: 768px) {
     .hero {
@@ -59,6 +65,7 @@
         flex-wrap: wrap;
         row-gap: 40px;
         justify-content: space-between;
+        margin-bottom: 40px;
         
         }
     .hero-title {
@@ -88,6 +95,8 @@
         padding-top: 80px;
         padding-bottom: 50px;
         }
+    
+        
     .hero-title {
         width: 597px;        
         font-size: 72px;
