@@ -203,13 +203,9 @@ color: #fbfbfb;
       display: none;
   }
   .container{
-       min-width: 1280px; 
      padding-left: 64,5px;
     padding-right: 64,5px;  
     margin: 0 auto; 
-}
-.header-list{
-   display: flex;
 }
 .header-list{
    display: flex;
