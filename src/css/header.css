@@ -1,6 +1,10 @@
 .page-header{
   border-bottom: 1px solid #e7e9fc;
   
+  
+}
+.header-container {
+  position: relative;
 }
 .header-nav{
    display: flex;
@@ -29,7 +33,7 @@ text-align: center;
 
 }
 .nav-link.active{
-  position: relative;
+  
       
 }
 .nav-link.active::after{
