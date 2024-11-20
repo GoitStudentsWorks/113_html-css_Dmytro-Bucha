@@ -1,0 +1,108 @@
+.hero {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    min-width: 320px;
+    }
+   
+.hero-container {
+    display: flex;
+    gap: 28px;
+    flex-direction: column;
+    margin-bottom: 28px;
+}
+.hero-title {
+    
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 0.95;
+    letter-spacing: -0.02em;    
+    margin-bottom: 20px;
+    
+}
+.hero-title-collection {
+    color: #3350e9;
+}
+.hero-text {
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);    
+    
+}
+.hero-scroll {
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    text-decoration-skip-ink: none;
+            
+}
+.hero-foto-people {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.foto-people {
+    width: 108px;
+}
+.hero-watch {
+    
+}
+
+@media only screen and (min-width: 768px) {
+    .hero {
+        padding-top: 80px;
+        padding-bottom: 40px;
+       
+        }
+    .hero-container {
+        column-gap: 11px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        row-gap: 40px;
+        justify-content: space-between;
+        margin-bottom: 40px;
+        
+        }
+    .hero-title {
+        width: 557px;        
+        font-size: 70px;
+        line-height: 0.86;
+        }
+    .hero-text {
+        width: 480px;        
+        font-size: 16px;
+        line-height: 1.25;
+        }
+    .hero-scroll {
+        font-size: 20px;
+        line-height: 1;
+    }
+    .hero-foto-people {
+        flex-direction: column;
+    }
+    .foto-people {
+        width: 136px;
+    }    
+  }  
+
+  @media only screen and (min-width: 1280px) {
+    .hero {
+        padding-top: 80px;
+        padding-bottom: 50px;
+        }
+    
+        
+    .hero-title {
+        width: 597px;        
+        font-size: 72px;
+        line-height: 0.88;
+        } 
+     .foto-people {
+        width: 146px;
+    }
+  
+  }
