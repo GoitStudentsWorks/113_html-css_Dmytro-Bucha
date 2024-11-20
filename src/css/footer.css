@@ -1,7 +1,6 @@
-git add --all
-git commit -m "commit message"
 
-.hidden {
+.visually-hidden {
+
     position: absolute;
     width: 1px;
     height: 1px;
