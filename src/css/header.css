@@ -202,9 +202,9 @@ color: #fbfbfb;
   .menu-btn{
       display: none;
   }
-  .container{
-     padding-left: 64,5px;
-    padding-right: 64,5px;  
+  .header-container{
+     padding-left: 64.5px;
+    padding-right: 64.5px;  
     margin: 0 auto; 
 }
 .header-list{
