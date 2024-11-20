@@ -1,0 +1,245 @@
+.sale {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.sale-title {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-bottom: 24px;
+}
+
+.sale-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.sale-item {
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 16px;
+    background: #f3f3f3;
+    max-width: 80px;
+    max-height: 80px;
+    padding: 13px 14px;
+}
+
+.main-clock {
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 30px;
+    max-width: 335px;
+    max-height: 385px;
+    background: #f3f3f3;
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+.product-info {
+    background-color: #3350E9;
+    border-radius: 30px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+.product-name {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    padding-bottom: 10px;
+}
+
+.product-model {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.5);
+    padding-bottom: 20px;
+}
+
+
+.product-price {
+    padding-bottom: 28px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.new-product-price {
+    border-radius: 8px;
+    width: 68px;
+    height: 32px;
+    padding: 8px 12px;
+    background: rgba(251, 251, 251, 0.1);
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    text-align: center;
+}
+
+.old-product-price {
+    text-align: center;
+    width: 36px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    text-decoration: line-through;
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.product-description {
+    padding-bottom: 28px;
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.7);
+}
+
+.product-list {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+
+
+}
+
+.product-item {
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.33333;
+    color: #fbfbfb;
+}
+
+@media screen and (min-width: 768px) {
+
+    .sale {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .sale-title {
+        font-size: 48px;
+        margin-bottom: 40px;
+    }
+
+    .sale-list {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        margin-bottom: 0;
+    }
+
+    .sale-item {
+        max-width: 132px;
+        max-height: 132px;
+        padding: 16px 18px;
+        border-radius: 20px;
+
+    }
+
+    .main-clock {
+        max-width: 552px;
+        max-height: 558px;
+        padding: 80px 112px;
+        margin-bottom: 0;
+        border-radius: 50px;
+    }
+
+    .sale-content {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 40px;
+        column-gap: 20px;
+    }
+
+    .product-info {
+        border-radius: 50px;
+        max-width: 704px;
+        padding: 60px;
+    }
+
+    .product-name {
+        font-size: 32px;
+        line-height: 1.12;
+        width: 436px;
+    }
+
+    .product-price {
+        padding-bottom: 30px;
+    }
+
+    .new-product-price {
+        width: 78px;
+        font-size: 20px;
+        line-height: 1;
+
+    }
+
+    .product-description {
+        font-size: 16px;
+        line-height: 1.25;
+        padding-bottom: 40px;
+    }
+
+    .product-list {
+        max-width: 398px;
+    }
+}
+
+
+@media only screen and (min-width: 1280px) {
+
+    .sale {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .main-clock {
+        max-width: 428px;
+        max-height: 558px;
+        padding: 80px 50px;
+        margin-left: 20px;
+    }
+
+    .sale-content {
+        flex-wrap: nowrap;
+        flex-direction: row;
+        gap: 0;
+    }
+
+    .product-info {
+        max-width: 530px;
+        max-height: 558px;
+        margin-left: 40px;
+    }
+
+    .product-name {
+        max-width: 389px;
+    }
+}
