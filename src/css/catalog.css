@@ -1,0 +1,236 @@
+/*-------------------catalog---------------------*/
+
+ul {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.watch-btn {
+  font-weight: 500;
+  font-size: 14px;
+
+  line-height: 18px;
+  /* line-height: 129%; */
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  background-color: #3350e9;
+  display: block;
+  width: 160px;
+  height: 48px;
+  border: none;
+  border-radius: 16px;
+}
+
+.watch-btn:hover,
+.watch-btn:focus {
+  background-color: #1f3cd4;
+}
+
+.watch {
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.watch-title {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+
+  /* line-height: 32px; */
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  margin-bottom: 24px;
+  margin-top: 0;
+}
+
+.watch-subtitle {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 0 0 8px 0;
+
+  line-height: 20px;
+  /* line-height: 125%; */
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  width: 100%;
+}
+
+.watch-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.watch-text-pad {
+  margin: 0 28px 0 28px;
+  border-top: none;
+}
+
+.image-watch {
+  margin: 24px 28px 10px 28px;
+  display: flex;
+  justify-content: center;
+  width: 279px;
+  height: 262px;
+}
+
+.watch-item {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  width: 335px;
+  height: 364px;
+  background: #f3f3f3;
+  margin-bottom: 20px;
+}
+
+.watch-item-h {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  width: 335px;
+  height: 364px;
+  background: #f3f3f3;
+  margin-bottom: 20px;
+}
+
+.watch-item-text {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+
+  /* line-height: 18px; */
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.5);
+  margin: 0;
+}
+.watch-item-b {
+  display: none;
+}
+/****************tab****************/
+
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  .watch {
+    padding-top: 0;
+    padding-bottom: 80px;
+    flex-wrap: wrap;
+  }
+  .watch-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 32px;
+    column-gap: 16px;
+  }
+  .watch-item {
+    width: 344px;
+    height: 414px;
+    margin-bottom: 0;
+    flex-basis: calc((100% - 16px) / 2);
+  }
+  .watch-item-h {
+    width: 344px;
+    height: 414px;
+    flex-basis: calc((100% - 16px) / 2);
+  }
+
+  .image-watch {
+    width: 280px;
+    height: 312px;
+    margin: 24px 32px 10px 32px;
+  }
+
+  .watch-text-pad {
+    margin: 0 32px 0 32px;
+  }
+
+  .watch-subtitle {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+
+    /* line-height: 20px; */
+    line-height: 100%;
+    letter-spacing: -0.02em;
+  }
+}
+/****************des****************/
+@media only screen and (min-width: 1280px) {
+  .watch {
+    padding-top: 0px;
+    padding-bottom: 100px;
+  }
+
+  .watch-item {
+    max-width: 368px;
+    height: 414px;
+    flex-basis: calc((100% - 23px) / 3);
+    margin-bottom: 0;
+  }
+  .watch-item-h {
+    max-width: 368px;
+    height: 414px;
+    flex-basis: calc((100% - 23px) / 3);
+    margin-bottom: 0;
+  }
+
+  .watch-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 23px;
+    row-gap: 32px;
+  }
+
+  .watch-title {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+
+    /* line-height: 44px; */
+    line-height: 92%;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-bottom: 40px;
+  }
+
+  .watch-subtitle {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+
+    /* line-height: 20px; */
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+  }
+
+  .watch-text-pad {
+    margin: 0 32px 0 32px;
+  }
+
+  .image-watch {
+    width: 304px;
+    height: 312px;
+    margin: 24px 32px 10px 32px;
+  }
+
+  @media only screen and (max-width: 767px) {
+    .watch-item-h {
+      display: none;
+    }
+    .watch-item-b {
+      display: contents;
+    }
+  }
+}
