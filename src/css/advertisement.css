@@ -4,7 +4,7 @@
 .cont-advert {
   background-image: url(/img/phone-advertisement.webp);
   background-repeat: no-repeat;
-  min-width: 335px; 
+  max-width: 100%; 
   padding: 60px 28px;
   border-radius: 30px;
 }
