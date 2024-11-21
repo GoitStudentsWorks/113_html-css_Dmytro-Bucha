@@ -57,6 +57,10 @@
   }
   .reviews-title {
     margin-bottom: 40px;
+    
+    font-size: 48px;
+    line-height: 0.92;
+    letter-spacing: -0.02em;
   }
   .reviews-list {
     gap: 16px;
@@ -87,4 +91,5 @@
   .reviews-item {
     width: calc((100% - 20px) / 3);
   }
+ 
 }
