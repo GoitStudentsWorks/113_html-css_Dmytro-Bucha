@@ -37,6 +37,7 @@
 }
 
 .btn-contact {
+  display: block;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
@@ -44,8 +45,9 @@
   color: #fbfbfb;
   border: 1px solid rgba(251, 251, 251, 0.15);
   border-radius: 16px;
-  padding: 15px 43px;
   height: 48px;
+  width: 160px;
+  padding: 15px;
 }
 
 .btn-contact:hover {
@@ -73,7 +75,6 @@
     font-size: 48px;
     line-height: 0.92;
     max-width: 566px;
-    
     margin-bottom: 47px;
   }
 }
