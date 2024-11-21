@@ -83,21 +83,21 @@
 
 @media screen and (min-width: 1280px) {
   .advertisement {
-    padding: 50px 65px 50px 65px;
+    padding: 50px  0;
   }
   .cont-advert {
     background-image: url(/img/desktop-advertisement@2x.webp);
     padding-top: 83px;
-    height: 298px;
+    height:298px;
     display: flex;
-    justify-content: space-between;
+    gap: 140px;
     align-items: baseline;
     
   }
 
   .text-advertisement {
     max-width: 690px;
-    margin: 0;
+    
     
   }
 }
