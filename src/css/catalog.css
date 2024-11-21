@@ -73,6 +73,7 @@ ul {
   justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
+  
 }
 
 
@@ -92,7 +93,7 @@ ul {
 .watch-item {
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
-  width: 335px;
+  max-width: 335px;
   height: 364px;
   background: #f3f3f3;
   
@@ -101,7 +102,7 @@ ul {
 .watch-item-h {
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
-  width: 335px;
+  max-width: 335px;
   height: 364px;
   background: #f3f3f3;
   
