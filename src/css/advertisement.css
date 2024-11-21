@@ -11,6 +11,7 @@
   height: 363px;
   padding-left: 28px;
   padding-bottom: 60px;
+  
 }
 
 .visually-hidden {
@@ -79,7 +80,7 @@
     font-size: 48px;
     line-height: 0.92;
     max-width: 566px;
-    margin-top: 0;
+    margin-top: 80px;
     margin-bottom: 47px;
   }
 }
@@ -95,7 +96,7 @@
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding: 83px 80px;
+    
   }
 
   .text-advertisement {
