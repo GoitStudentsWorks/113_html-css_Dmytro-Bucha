@@ -71,6 +71,7 @@ ul {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  gap: 20px;
 }
 
 
@@ -93,7 +94,7 @@ ul {
   width: 335px;
   height: 364px;
   background: #f3f3f3;
-  margin-bottom: 20px;
+  
 }
 
 .watch-item-h {
@@ -102,7 +103,7 @@ ul {
   width: 335px;
   height: 364px;
   background: #f3f3f3;
-  margin-bottom: 20px;
+  
 }
 
 .watch-item-text {
@@ -167,6 +168,9 @@ ul {
   }
 }
 /****************des****************/
+
+
+
 @media only screen and (min-width: 1280px) {
   .watch {
     
@@ -230,8 +234,7 @@ ul {
     .watch-item-h {
       display: none;
     }
-    .watch {
-    
+    .watch {    
       padding: 50px 0;
     }
     .watch-item-b {
