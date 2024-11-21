@@ -118,8 +118,9 @@ ul {
   margin: 0;
 }
 .watch-item-b {
-  display: none;
-}
+    margin-top: 20px;
+  }
+
 /****************tab****************/
 
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
@@ -127,6 +128,10 @@ ul {
     
     padding: 40px 0;
     flex-wrap: wrap;
+  }
+
+  .watch-item-b {
+    display: none;
   }
   .watch-list {
     display: flex;
@@ -172,6 +177,9 @@ ul {
 
 
 @media only screen and (min-width: 1280px) {
+   .watch-item-b {
+    display: none;
+  }
   .watch {
     
     padding: 40px 0;
