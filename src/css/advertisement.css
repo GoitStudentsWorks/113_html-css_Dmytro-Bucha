@@ -4,10 +4,7 @@
 .cont-advert {
   background-image: url(/img/phone-advertisement.webp);
   background-repeat: no-repeat;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-  border-radius: 30px;
-  border: 1px solid #000;
-  width: 335px;
+   width: 100%;
   height: 363px;
   padding-left: 28px;
   padding-bottom: 60px;
@@ -66,13 +63,12 @@
   .cont-advert {
     background-image: url(/img/tablet-advertisement@2x.webp);
     background-size: contain;
-    border: none;
     border-radius: 30px;
     padding-left: 64px;
     padding-right: 64px;
     padding-bottom: 80px;
     padding-top: 80px;
-    width: 704px;
+    width: 100%;
     height: 425px;
   }
 
@@ -80,7 +76,7 @@
     font-size: 48px;
     line-height: 0.92;
     max-width: 566px;
-    margin-top: 80px;
+    padding-top: 80px;
     margin-bottom: 47px;
   }
 }
@@ -91,7 +87,7 @@
   }
   .cont-advert {
     background-image: url(/img/desktop-advertisement@2x.webp);
-    width: 1150px;
+    
     height: 298px;
     display: flex;
     justify-content: space-between;
@@ -102,5 +98,6 @@
   .text-advertisement {
     max-width: 690px;
     margin: 0;
+    padding-top: 83px;
   }
 }
