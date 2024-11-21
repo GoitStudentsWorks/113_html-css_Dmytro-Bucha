@@ -119,6 +119,9 @@
         justify-content: flex-start;
         
     }
+    .footer-container {
+        padding: 0 32px;
+    }
 
   .footer-one {
     flex-direction: column;
@@ -182,6 +185,9 @@
 @media screen and (min-width: 1280px) {
     .footer-header-tabletmobile {
         display: none;
+    }
+    .footer-container {
+        padding: 0 32px;
     }
 
     .footer-header {
