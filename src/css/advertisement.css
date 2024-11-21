@@ -85,7 +85,7 @@
   }
   .cont-advert {
     background-image: url(/img/desktop-advertisement@2x.webp);
-    padding-top: 83px;
+    padding: 83px 80px;
     height:298px;
     display: flex;
     gap: 140px;
